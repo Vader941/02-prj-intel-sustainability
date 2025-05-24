@@ -47,8 +47,18 @@ body {
 
 /* Styles for the Intel logo in the hero section */
 .hero-content img {
-  width: 150px; /* Sets the logo width */
-  margin-bottom: 1rem; /* Adds space below the logo */
+  width: 200px;      /* Increase the logo width */
+  margin-bottom: 1.5rem; /* Add a bit more space below the logo */
+}
+
+/* Make the hero section heading and logo larger for more impact */
+.hero-content h1 {
+  font-size: 2.5rem; /* Make the main heading bigger */
+  margin-bottom: 1rem; /* Add space below the heading */
+}
+
+.hero-content p {
+  font-size: 1.25rem; /* Make the paragraph text a bit larger */
 }
 
 /* Timeline section styles with scroll snap for smooth navigation */
